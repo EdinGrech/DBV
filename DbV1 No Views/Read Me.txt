@@ -1,0 +1,22 @@
+Program, to run you will need python pre-installed (this will change in future when converted to a exe)
+
+-can be run through an idle (code editor such as vs code) or terminal
+-Double click DBV1Layer1.py to run the main
+-if you know python there are comments on the code but not much to go off of, the yare mostly my notes to keep track where I am at
+
+What the program can do:
+-allows user to create tables in any file format (that uses 2 separators, example .txt .csv)
+=it can also extract information form saved file and be interpreted
+-the program is designed to be piped meaning it cam be imported as a substructure for other programs to interface with it although this feature is still a work in progress
+-the program allows for mass table manipulation that can also be specified if nessicery
+-it also has a basic ui but can be kept a sleep in needed when it is connected to a better gui in future
+
+features to be added/improved soon:
+-remove files (soon os errors need fixing)
+-reader/writer optimizations
+-writer can flip the fields horizontally or vertically for saving
+-relating ui needs to be implemented and linked to current relational functions
+-Table Views need to be implemented (create,save,edit,remove)
+	-Views will be able to be given permition attributes and there should be a filing system implemented (maybe dabil into security more)
+-fully understand the sorting source code and optimize it,
+-make the basic ui more stream line OR start working on the main gui and make that the actual stream line ui 
